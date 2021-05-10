@@ -15,7 +15,7 @@ es. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
  * @returns {Array} es. [a,1,b,2,c,3]
  */
 function unioneArray(list1, list2) {
-    if (list1.length != list2.length){
+    if (list1.length !== list2.length){
         alert('Per utilizzare la funzione "unioneArray" gli arrays devono contenere lo stesso numero di elementi')
     } else {
         var merge = [];
